@@ -25,6 +25,7 @@ Stochastic Models Columbia (lecture)
 Renewal equation model for contact tracing (talk)
 <https://www.youtube.com/watch?v=a_VNNT9yyI0>
 
+
 ## Notes/Ideas
 
 How does this relate to stochastic processes? I am seeing that a lot...
@@ -58,3 +59,19 @@ How can we produce the force of infection/what type of metrics do we care about?
 Is overfitting an issue? How do we check for accuracy?
 
 - Compare to simulated data which is dependent on assumptions
+
+
+## From Stephen
+
+Framework example in recent publication <https://www.science.org/doi/10.1126/science.abb6936#core-collateral-media>
+
+Odo Deikmann <https://scholar.google.nl/citations?user=hpOJncQAAAAJ&hl=en>
+- Dynamics of immune status <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6280846/>
+- Renewal eqns on Banach spaces <https://link.springer.com/chapter/10.1007/BFb0083485> (i fear these words)
+- Renewal eqns and PDEs <https://arxiv.org/pdf/2201.05323.pdf> (for full book see <https://link.springer.com/book/10.1007/978-3-662-13159-6>)
+
+### Follow up questions/ideas
+
+Piecewise deterministic Markov Processes? Need to contextualize random variable and Markov things
+
+REqns: the processes is an idealized stochastic model for events that occur randomly in time. The defining property of a renewal process—the fact that the process restarts at each arrival time, independently of the past. Key tools: measures, convolutions, and transforms. <https://www.randomservices.org/random/renewal/Equations.html>

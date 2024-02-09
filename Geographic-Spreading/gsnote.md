@@ -25,6 +25,7 @@ COVID 19 spread kernel modulated? (paper)
 SIR as a transport PDE problem (paper)
 <https://www.sciencedirect.com/science/article/pii/S0895717710002906>
 
+
 ## Notes/Ideas
 
 Is a baseline model required? Comparing to data for simulations - is data reliable/continuous?
@@ -42,3 +43,32 @@ Continuous vs discrete models... when is the later useful?
 What is kernel-modulated, how is it useful? What other kinds of transforms/fancy math are out there and are there any worth exploring to incorporate renewal equation project?
 
 - yeah no idea but that's okay read into it and maybe it will fit when assumptions change later? 
+
+
+## From Stephen
+
+Julia Gog <https://scholar.google.com/citations?user=0FZBXDYAAAAJ&hl=en>
+- Influenza Spatial Transmission (metapopulation) <https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003635&type=printable>
+
+Challenges (Steven Riley <https://scholar.google.com/citations?user=1mTtPIIAAAAJ&hl=en>)
+- 2015 <https://www.sciencedirect.com/science/article/pii/S1755436514000310?via%3Dihub>
+- 2007 <https://www.science.org/doi/10.1126/science.1134695>
+
+Metapopulation Dynamics (Ilkka Hanski)
+- <https://www.nature.com/articles/23876>
+- <https://books.google.com/books?hl=en&lr=&id=jsk4Nt_8X8sC&oi=fnd&pg=PA1&ots=gEWi5qEX2G&sig=rvJCwgcDPsACuCbSU8O_cjwWTKc#v=onepage&q&f=false>
+
+
+### Follow up questions/ideas
+
+**Goal:** Construct model with coupling terms between "nodes" which are subpopulations/communities. Each node has it's own SIR "state" which relates to the transmission between nodes.
+
+Metapopulation will be the key to describe these relationships (nested populations of sorts).
+
+Coupling terms will likely be a probability of interaction between nodes based on spatial which then has a likelihood of resulting in infection that should also depend on the state of the nodes at point of contact.
+- If there's randomness involved in modeling these things then how do we provide an answer if each outcome may be slightly different?
+
+## Coding help
+Simple example(s) to walk through and get used to R <https://rpubs.com/choisy/sir>
+
+- Are the functions reliable or should we code up processes (ex RK4) for any reason? Makes sense to start by doing that for proof of concept...

@@ -68,7 +68,11 @@ Metapopulation will be the key to describe these relationships (nested populatio
 Coupling terms will likely be a probability of interaction between nodes based on spatial which then has a likelihood of resulting in infection that should also depend on the state of the nodes at point of contact.
 - If there's randomness involved in modeling these things then how do we provide an answer if each outcome may be slightly different?
 
+Probabalistic over all simulations (math def) -> statistic from outcomes and all that fun stuff
+
 ## Coding help
 Simple example(s) to walk through and get used to R <https://rpubs.com/choisy/sir>
 
 - Are the functions reliable or should we code up processes (ex RK4) for any reason? Makes sense to start by doing that for proof of concept...
+
+no random number generator - probability of s to i r etc (stay away from packages for now to learn the science! Does solving ODE really help no)

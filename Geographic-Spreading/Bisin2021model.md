@@ -12,6 +12,12 @@ $ \chi = \{S, A, Y, R, D\} $ - state space of suspectibles, asymptomatic, sYmpto
 
 $ h_{t}^{i} \in \chi$ agent $i$ at time $t$ and $ h_{t} = \frac{1}{N} \[S_t , A_t , Y_t , R_t , D_t \] \in \Delta^{\chi} $ - distribution of (N) agents in the population of state space
 
+Why include exposed group - point of intervention!
+
+decay function rather than strict radius of infection (continuous thing to play with) never have force of infection exactly zero
+
+uniformally randomly move update discrete or continuous rate or brownian motion (2d gaussian)
+
 
 ### Spatial
 
